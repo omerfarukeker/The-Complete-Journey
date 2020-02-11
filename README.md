@@ -35,17 +35,17 @@ _"A customer will be considered as churned if not purchased from a store 2 weeks
 
 Following features are generated and used along with the demographics data
 
-**Feature 1**: List of campaigns received by each household
-**Feature 2**: Total number of received campaigns per household
-**Feature 3**: List of campaigns resulted in coupon redemption
-**Feature 4**: The number of redemptions made by each household
-**Feature 5**: Most Frequent Campaign Type (A,B,C) received by each household
-**Feature 6**: Top 20 stores with high number of households which have more high out weeks
-**Feature 7**: Amount of purchase of a household within two years
+1. List of campaigns received by each household
+2. Total number of received campaigns per household
+3. List of campaigns resulted in coupon redemption
+4. The number of redemptions made by each household
+5. Most Frequent Campaign Type (A,B,C) received by each household
+6. Top 20 stores with high number of households which have more high out weeks
+7. Amount of purchase of a household within two years
 
 ## ML Model Training & Testing
 
 A Machine Learning model is trained with the training data. The machine learning model is chosen as **XGBoost** (Extreme Gradient Boosting) as they are known to be performing well with imbalanced datasets like the ones we use.
 
-Hyperparameter optimisation with RepeatedStratifiedKFold is used for optimising the model parameters. The classification results are evaluated with the ROC-AUC metric.
+**Hyperparameter optimisation** with **RepeatedStratifiedKFold** is used for optimising the model parameters. The classification results are evaluated with the **ROC-AUC** along with few other metrics.
 
