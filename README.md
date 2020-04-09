@@ -3,6 +3,7 @@
 Churn prediction model notebook for a retail dataset (DunnHumby's The Complete Journey Dataset). 
 
 _**This readme file gives the outlook of the detailed notebook (the .ipynb file in the repo)**_
+https://github.com/omerfarukeker/The-Complete-Journey/blob/master/Omer_eker_the_complete_journey_v3.ipynb
 
 ## The Dataset
 
